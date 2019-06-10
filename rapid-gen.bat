@@ -8,7 +8,7 @@
 @java -server -Xms128m -Xmx384m cn.org.rapid_framework.generator.ext.CommandLine -DtemplateRootDir=template
 @if errorlevel 1 (
 @echo ----------------------------------------------
-@echo   ****错误***: 请设置好JAVA_HOME环境变量再运行或者检查你的classpath路径
+@echo   ****错误***: 请设置好JAVA_HOME环境变量再运行或者检查你的classpath路径或者自己新建一个bat文件，复制此文件内容
 @pause
 )
 
