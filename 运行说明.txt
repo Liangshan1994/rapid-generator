@@ -1,5 +1,0 @@
-1.主要配置文件为generator.xml,里面可以修改数据库连接
-2.运行rapid-gen.bat用于再输入gen user_info用于生成测试代码
-注：
-1.user_info是表名,如果要生成所有的用gen *就可以了,或者gen t_user*
-2.win系统是运行rapid-gen.bat，linux系统运行gen.sh
